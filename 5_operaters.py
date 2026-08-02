@@ -201,6 +201,29 @@
 # none 
 # they all are false inke alawa kch bi aaye sab true fr valve "-ve" kyu na ho
 
+
+
+###### and 
+# -> if any value is false it will return the false one
+# -> if both the values are true it will pick the right one 
+
+# Left  |  Right   | Output
+# True  | False     | False
+# False  | True     | False
+# False   | False    | False
+# True   |  True     | True
+
+
+######### OR
+# -> if any value is true it will select that
+# -> if all values are false it will select the right most
+
+
+# Left    |  Right    | Output
+# True    |  False    | True
+# False   |  True     | True
+# True    |  False    |  True
+#  False  | False     | False 
 # print( 32 and 56 and () and 87 )
 
 # print(23 and [] and 34 and 45)
@@ -226,3 +249,4 @@
 
 # char = input("enter a character: ")
 # print(char =="A" or char == "E" or char == "I" or char == "O" or char == "U")
+
