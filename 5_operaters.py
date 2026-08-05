@@ -251,6 +251,27 @@
 # print(char =="A" or char == "E" or char == "I" or char == "O" or char == "U")
 
 
-char = input("enter a character: ")
-print(char =="A" or char == "E" or char == "I" or char == "O" or char == "U")
+# char = input("enter a character: ")
+# print(char =="A" or char == "E" or char == "I" or char == "O" or char == "U")
 
+
+# a = input("enter your age: ")
+# a = int(a)
+
+# print(a > 18)
+
+
+# a = input("enter your age: ")
+# a = int(a)
+# print(a < 20)
+
+# a = input("enter a number: ")
+# a = int(a)
+# print(a > 0)
+
+# a = input("enter a number: ")
+# a = int(a)
+#print(a > 6)
+
+# a = int(input("enter your age: "))
+# print(a < 54)
