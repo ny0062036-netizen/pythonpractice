@@ -1,23 +1,16 @@
-# a = input("enter your age: ")
-# a = int(a)
+# number = -4
 
-# print(a > 18)
+# if number > 0:
+#    print("It's +ve")
+# else:
+#   print("It's -ve")
 
+# number = int(input("Enter a number: "))
+# if number % 5:
+#   print("yes It's divided by 5.")
+# else: 
+#   print("No It's not divided by 5.")
 
-# a = input("enter your age: ")
-# a = int(a)
-# print(a < 20)
-
-# a = input("enter a number: ")
-# a = int(a)
-# print(a > 0)
-
-# a = input("enter a number: ")
-# a = int(a)
-#print(a > 6)
-
-# a = int(input("enter your age: "))
-# print(a < 54)
 
 # age = 15
 
@@ -102,3 +95,4 @@
   # print("It's -ve")
 # else:
   # print("It's 0")
+
