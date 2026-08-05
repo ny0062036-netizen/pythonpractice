@@ -194,5 +194,15 @@ counter value 5+1 is 6
 6 is greater this is false value 
 
 
+
+counter = 2
+
+2 is small than 20 
+
+print 2
+
+counter value 2+2 =4
+
+
  
 
