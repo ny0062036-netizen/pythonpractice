@@ -130,3 +130,51 @@
 #    print (i * "*")
 #    i += 2
 
+
+###### 1-50 counting
+# i = 1
+
+# while i <= 50:
+#    print(i)
+#    i += 1 
+
+
+###### 50-1 counting
+# i = 50
+
+# while i >= 1:
+#    print(i)
+#    i -= 1
+
+
+###### -1-(-50) counting
+# i = -1
+
+# while i >= -50:
+#    print(i)
+#    i -= 1
+
+
+###### -50-(-1) counting
+# i = -50
+
+# while i <= -1:
+#    print(i)
+#    i += 1
+
+
+###### 10-20 odd num.
+# i = 11
+
+# while i <= 19:
+#    print(i)
+#    i += 2
+
+###### 50-80 even num.
+# i = 50
+
+# while i <= 80:
+#    print(i)
+#    i += 2
+
+

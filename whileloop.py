@@ -204,5 +204,18 @@ print 2
 counter value 2+2 =4
 
 
+counter = 2 
+
+2 is small than 20
+
+print 2*3 = 6
+
+2+1 = 3
+
+3 is small 
+
+print 3*3 = 9  
+
+
  
 
