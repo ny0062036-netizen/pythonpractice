@@ -244,3 +244,22 @@
 #    print(str(i) * i)
 #    i += 1
 
+
+# i = 30
+
+# while i >= 15:
+#    print(str(i) * i)
+#    i -= 1
+
+# i = 1
+
+# while i <= 5:
+#    print("*" * i)
+#    i += 1
+
+# i = 5
+
+# while i >= 1:
+#    print("*" * i)
+#    i -= 1
+
