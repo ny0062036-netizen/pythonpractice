@@ -214,7 +214,120 @@ print 2*3 = 6
 
 3 is small 
 
-print 3*3 = 9  
+print 3*3 = 9 
+
+
+1-50 
+
+counter 1
+
+
+
+odd number 10-20
+
+11 13 15 17 19 
+
+counter = 11
+
+11-19
+
+11<= 19
+
+11+2=13
+
+50-80 even number
+
+52 54 56 58 60...........
+
+i = 50 
+
+while i <= 80:
+
+   print(i)
+   i += 2 
+
+print 52 54 56 58..........
+
+
+num input se lena h 
+
+i = num
+
+while i <= num
+
+print(i * num)
+
+i += 1
+
+
+i = 5
+
+while i <= 5:
+  
+
+
+1-5 all digit sum 
+
+i = 1
+
+while i <= 5:
+
+
+1-5 digit multiply 
+
+i = 1
+
+mul = 1
+
+while i <= 5;
+
+mul = (i * mul)
+ i += 1
+
+print(mul)
+ 
+   
+i = 1 
+
+mul = 1
+
+1 less than 5
+
+mul = 1*1 = 1
+1+1 = 2
+
+i = 2
+mul = 1
+
+2 less than 5
+
+mul = 2*1 = 2
+2+1 = 3
+
+i = 3
+mul = 2
+
+3 less than 5
+ 
+mul = 3*2 = 6
+3+1 = 4
+
+i = 4
+mul = 6
+
+4 less than 5
+
+mul = 4*6 = 24
+
+4+1 = 5 
+
+i = 5
+mul = 24
+
+5 is equal to 5
+
+mul = 5*24
+
 
 
  
