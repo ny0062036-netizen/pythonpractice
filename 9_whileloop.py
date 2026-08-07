@@ -263,3 +263,63 @@
 #    print("*" * i)
 #    i -= 1
 
+# i = 1
+
+# while i <= 10:
+#    num = int(input("enter a number: "))
+#    print(num)
+#    i += 1
+
+# i = 1
+
+# sum = 0
+
+# while i <= 5:
+#    num = int(input("enter a number: "))
+#    print(num)
+#    i += 1
+#    sum = sum + num
+  
+# print(sum)
+
+# i = 1
+
+# mul = 1
+
+# while i <= 5:
+#    num = int(input("enter a number: "))
+#    print(num)
+#    i += 1
+#    mul = (mul * num)
+
+# print(mul)
+
+# i = 1
+
+# sum = 0
+
+# while i <= 5:
+    
+#    sum = i + sum
+#    i += 1
+#    print(sum)
+
+# i = 1
+
+# mul = 1
+
+# while i <= 5:
+    
+#    mul = (i * mul)
+#    i += 1
+# print(mul)
+
+# i = 1
+
+# while i <= 10:
+#   num = int(input("enter a number: "))
+#   if num % 2 == 0 :
+#    print(num)
+#    print("number is even")
+#   i += 1
+
