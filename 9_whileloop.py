@@ -342,8 +342,34 @@
 # i = 1
 
 # while i <= 7:
-#    num = int(input("enter a number: "))    
-#    if num % 1 == 0:
-#        print("number is odd")
+#   num = int(input("enter a number: "))    
+#    if num % 2 == 0:
+#        print("number is even")
+# i += 1
+   
+# i = 2
+
+# while i <= 10:
+#    num = int(input("enter a number: "))
+#    if num % 2 == 0:
+#       print("number is odd")
 #    i += 1
+   
+# i = 2 
+
+# sum = 1
+
+# while i <= 9:
+#    sum = i + sum
+#    i += 1
+#    print(sum)
+
+# i = 2
+
+# mul = 1
+
+# while i <= 9:
+#    mul = i * mul
+#    i += 1
+#    print(mul)
 
