@@ -351,7 +351,7 @@
 
 # while i <= 10:
 #    num = int(input("enter a number: "))
-#    if num % 2 == 0:
+#    if num % 2 == 1:
 #       print("number is odd")
 #    i += 1
    
@@ -372,4 +372,5 @@
 #    mul = i * mul
 #    i += 1
 #    print(mul)
+
 
