@@ -1,3 +1,4 @@
+
 # while True:
 #    print("hello world1")
 #    print("hello world2")
@@ -373,4 +374,42 @@
 #    i += 1
 #    print(mul)
 
+
+# um = int(input("enter a number: "))
+# i = 2 
+
+# while i <= num-1:
+
+#    if num % i == 0:
+#        print(i)
+
+#        i += 1
+
+# num = int(input("enter a number: "))
+
+# i = 2
+
+# while i <= num-1:
+    
+#    if num % i == 0:
+#       print("not a prime number")
+#       break
+
+#    i += 1
+
+#     print('prime number')
+
+# num = int(input("enter a number: "))
+
+# num = 7
+# i = 2
+
+# while i <= num-1:
+
+#    if num % i == 0:
+#        print("not a prime number")
+#    i += 1    
+
+# if i == num:
+#    print("prime")
 
