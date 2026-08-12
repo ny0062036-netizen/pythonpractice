@@ -11,5 +11,12 @@
 # for x in range(0 , 10, 2):
 #   print(x)
 
-for i in range(1 , 10 , 2):
-   print(i)
+# for i in range(1 , 10 , 2  ):
+#   print(i)
+
+# for x in range(50 , 1 , -1):
+#   print(x)
+
+# for x in range(1 , 15 , 2):
+#   print(x)
+

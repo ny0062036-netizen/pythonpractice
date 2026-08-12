@@ -84,3 +84,22 @@
   #  print("not a three digit number")
 
 
+# a = 25
+# b = 30
+# c = 40
+
+# a > b and a > c
+
+# if a > b:
+#  if a > c:
+#   print(a)
+
+# else:
+#  print(c)
+  
+#  if b > c:
+#    print(b)
+#  else:
+#    print(c)
+
+ 
