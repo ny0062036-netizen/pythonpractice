@@ -375,7 +375,7 @@
 #    print(mul)
 
 
-# um = int(input("enter a number: "))
+# num = int(input("enter a number: "))
 # i = 2 
 
 # while i <= num-1:
@@ -412,4 +412,14 @@
 
 # if i == num:
 #    print("prime")
+
+# num = int(input("enter a number: "))
+# i = 2 
+
+# while i <= num-1:
+
+#    if num % i == 1:
+#        print(i)
+
+#        i += 1
 

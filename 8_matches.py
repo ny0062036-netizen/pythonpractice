@@ -177,3 +177,17 @@
   #   print("not defined")
 
 
+# char = input("enter light color: ")
+
+# if char == "red":
+#  print("stop")
+
+# elif char == "yellow":
+#  print("get ready")
+
+# elif char == "green":
+#  print("go")
+
+# else:
+#  print("not defined")
+

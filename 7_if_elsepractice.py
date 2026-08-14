@@ -102,4 +102,12 @@
 #  else:
 #    print(c)
 
- 
+# a = int(input("enter a number: "))
+
+# match a:
+
+# case 1:
+#  print("monday")
+
+# case 2:
+#  print("tuesday")
