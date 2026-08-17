@@ -142,3 +142,99 @@
 # my_string = '  --hello-- '
 # print(my_string.strip(' -'))
 
+# my_string = 'hello'
+# print(my_string[::-1])
+
+# my_string = '----hel----llo----'
+# print(my_string.strip('-'))
+
+# my_string = '-*-*-*-*hello-*-*-*-*'
+# print(my_string.strip('-*'))
+
+# my_string = '-+-+-+@#$983784589*!'
+# print(my_string.strip('-+@#$*!'))
+
+# my_string = 'www.google.com'
+# print(my_string.strip('w.'))
+
+# my_string = '@*&$27e49$%^&*'
+# print(my_string.rstrip('$%^&*'))
+
+# my_strip = '@$&*27e49$%^&*
+# print(my_string.lstrip('@*$&'))
+
+# my_string = '--**he---llo+*&%'
+# print(my_string.strip('h-*&%+'))
+
+# i = 'byegfybhcbewydexjhxbeuydxhdbewhx hx wqehudb'
+# print(i.startswith ('byegf'))
+
+# o = 'jshuhueh  uwhdue jdnjw jjdnwix'
+# print(o.endswith ('wix'))
+
+# i = 'hello this side is unknown'
+# print(i.startswith ('he'))
+
+# i = 'hello this side is unknown'
+# print(i.endswith ('unknown'))
+
+# ram 
+#    hello
+#         jaipur
+# print('ram'.rjust(6)) 
+# print('hello'.rjust(2)) 
+# print('jaipur'.rjust(1))
+
+# my_string = 'hello world'
+# print(my_string.replace('ll','x'))
+# print(my_string)
+
+# my_string = 'i live in india'
+# print(my_string.replace('live','+'))
+
+# my_string = 'i m nikku'
+# print(my_string.replace('k','-'))
+
+# my_string =  'i live in india'
+# print(my_string.replace('in','+'))
+
+# my_string = 'hello world'
+# print(my_string.find('w'))
+
+# my_string = 'hello world'
+# print(my_string.find('x'))
+
+# my_string = 'hello world'
+# print(my_string.find('l',5))
+
+# my_string = 'hello world'
+# print(my_string.find('l',5,8))
+
+# a = 'i live in india'
+# print(a.count('in'))
+
+# a = 'HELLO123'
+# print(a.isupper())
+
+# i = 'Hello'
+# print(i.isupper())
+
+# a = 'hello123'
+# print(a.islower())
+
+# i = 'heLLo'
+# print(i.islower())
+
+# a = '232345asf-'
+# print(a.isalnum())
+
+# a = '2647859'
+# print(a.isnumeric())
+
+# a = '234567'
+# print(a.isnumeric())
+
+# a = 'is this window 11?'
+# print(a.capitalize())
+# print(a.title())
+
