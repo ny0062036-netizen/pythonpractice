@@ -99,11 +99,11 @@
 # data = input('enyer your char: ')
 
 # if len (data) != 1:
-#    print("invalid data")
+#     print("invalid data")
 # elif data in 'aeiou':
-#    print("vowel")
+#     print("vowel")
 # else:
-#    print("consonant")
+#     print("consonant")
 
 # my_string = 'i live in india'
 # new_string = my_string.upper()
@@ -178,9 +178,9 @@
 # i = 'hello this side is unknown'
 # print(i.endswith ('unknown'))
 
-# ram 
-#    hello
-#         jaipur
+# a = 'ram' 
+# b = 'hello'
+# c = 'jaipur'
 # print('ram'.rjust(6)) 
 # print('hello'.rjust(2)) 
 # print('jaipur'.rjust(1))
@@ -238,3 +238,5 @@
 # print(a.capitalize())
 # print(a.title())
 
+# my_string = 'jbyueghdyewu'
+# print(my_string)
