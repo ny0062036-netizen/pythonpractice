@@ -240,3 +240,106 @@
 
 # my_string = 'jbyueghdyewu'
 # print(my_string)
+
+# a = 'is this window 11 ?'
+# print(a.capitalize())
+# print(a.title())
+
+# my_string = 'hello world'
+# print(my_string[1:4:-1])
+
+# my_string = 'hello'
+# print(my_string[::-1])
+
+# my_string = 'hello world'
+# print(my_string[6:2:-1])
+
+# my_string = '0123456789'
+# print(my_string[::-1])
+
+# for x in 'hello i m from alwar':
+#     print(x)
+
+# for x in 'hello i am from rewari':
+#     if x in 'aeiouAEIOU':
+#         print(x)
+
+# for x in 'hello i am from alwar':
+#     if x in 'hello from alwar':
+#         print(x)
+
+# vowel = 0
+# for x in 'hello i am from alwar':
+#     if x in 'aeiouAEIOU':
+#         vowel += 1
+#         print(x ,vowel)
+
+# vowel = 0
+# for x in 'hello i am from alwar jaipur rewari':
+#     if x in 'aeiouAEIOU':
+#         vowel += 1
+#         print(x , vowel)
+
+# vowel = 0 
+# for x in 'kmsncuhfyrgfcbwjdw':
+#     if x in 'aeiouAEIOU':
+#         vowel += 1 
+#         print(x , vowel)
+
+# vowel = 0 
+# for x in 'hell i am from rewari ':
+#     if x in ' ':
+#         vowel += 1
+#         print(x , vowel)
+
+# vowel = 0
+# for x in 'WHDRGDYjsnehfeUIXEEDH ijidnu':
+#     if x in 'abcdefghijklmnopqrstuvwxyz':
+#         vowel += 1
+#         print(x , vowel)
+
+# vowel = 0
+# for x in 'WEEYYHFBidhefrefEDCHEUDHERUderfhEDUEW':
+#     if x in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
+#         vowel += 1
+#         print(x , vowel)
+
+# i = 1
+
+# while i < 10:
+#     i += 1
+#     print(i)
+
+# i = 0
+# while i < 9:
+#     i += 1
+#     print(i)
+
+# a = 'hello'
+# i = 0
+# while i < len(a):
+#     i += 1
+#     print(i)
+
+# a = 'hello'
+# i = 0
+# while i < len(a):
+#      print( a[i])
+#      i += 1
+
+# a = 'hello'
+# i = 0
+# while i < len(a):
+#     if a[i] in 'aeiou':
+#         print(a[i])
+#     i += 1
+
+# a = 'hello'
+# i = 0
+# vow = 0
+# while i < len(a):
+#     if a[i] in 'aeiou':
+#         vow += 1
+#     i += 1
+# print(vow)
+
