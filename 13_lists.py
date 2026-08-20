@@ -450,3 +450,73 @@
 # a = [ [ [ [ [ 123 ] ] ] ] ]
 # print(a[0][0][0][0])
 
+#### refrence variable
+
+# a = 34
+# b = a
+# print(a,b)
+# a = 23
+# print(a,b)
+
+# a = ['ghjk', 12234, 35475, 928475,92389]
+# b = a
+# print(a,b)
+# b[0] = 'nikesh'
+# print(a,b)
+
+
+###### data manipulation
+
+# a = [0,1, 2, 3, 4, 5, 6,]
+# print(a[0])
+# a[0] = 98
+# print(a)
+
+# b = [8734, 947, 98847, 947,947]
+# print(b[4])
+# b[4] = 1234556780997
+# print(b)
+
+
+##### identity opreator
+
+# a = ['ghjk', 12234, 35475, 928475,92389]
+# b =  ['ghjk', 12234, 35475, 928475,92389]
+# print(a is b)
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# print(f"slice[2:6]: {numbers[2:8]}")
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# print(f"slice[:5]: {numbers[:5]}")
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# print(f"slice[7:]: {numbers[7:]}")
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# print(f"slice[:]: {numbers[:]}")
+
+# numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# print(f"slice[::4]: {numbers[::4]}")
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# print(f"reversedslice[::-1]: {numbers[::-1]}")
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# print(f"slice[::-3]: {numbers[::-3]}")
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# print(f"slice[1:8:2]: {numbers[-8:-1:2]}")
+
+# numbers = [123, 345, 456, 678, 789, 879, 987]
+# print(numbers[-3:-8:-2])
+
+# my_list = ["apple", "banana", "cheery", "date"]
+# print(my_list[1][2:4])
+
+# my_list = ["apple", "banana", "cheery", "date"]
+# print(my_list[2][-3:-1])
+
+# my_list = ["apple", "banana", "cheery", "date"]
+# print(my_list[3][-4:-2:-1])
+
