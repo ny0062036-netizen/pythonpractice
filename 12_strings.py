@@ -343,3 +343,15 @@
 #     i += 1
 # print(vow)
 
+# a = 'hello'
+# i = 0
+# vow = 0
+# while i < len(a):
+#     if a[i] in 'aeiou':
+#         vow += 1
+#     i += 1
+# print(vow)
+
+# a = "python"
+# print(a.swapcase())
+
