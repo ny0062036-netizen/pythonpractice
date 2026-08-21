@@ -520,3 +520,81 @@
 # my_list = ["apple", "banana", "cheery", "date"]
 # print(my_list[3][-4:-2:-1])
 
+# a = ["india", "france", "usa", "japan"]
+# print(a[0][0])
+# print(a[0][2])
+# print(a[-1][-1])
+
+# a = [
+#     [10, 20, 30],
+#     [40, 50, 60],
+#     [70,80,90]
+# ]
+# print(a[0])
+# print(a[2])
+# print(a[2][0])
+# print(a[1][2])
+
+# students = [
+#     ["rahul", 20],
+#     ["priya", 21],
+#     ["amit", 19]
+# ]
+# print(students[0][0])
+# print(students[-1])
+# print(students[-1][-1])
+
+# data = [
+#     100,
+#     "python",
+#     [10, 20, 30],
+#     True,
+#     ["india", "japan", "usa"]
+# ]
+# print(data[1])
+# print(data[2][0])
+# print(data[4][-1])
+# print(data[2][-1])
+
+# a = [
+#     "hello",
+#     [1, 2, 3],
+#     "india",
+#     [True, False, [100, 200, 300]]
+# ]
+# print(a[0][1])
+# print(a[1][2])
+# print(a[3][2][1])
+
+# log_entry = "[error]===system clash==="
+# print(log_entry.rstrip("="))
+
+# document = "final_report.pdf"
+# print(document.endswith(".pdf"))
+
+# my_list = ["apple", "banana", "cheery", "date"]
+# print(my_list[1][2:4])
+# my_list[1] = "grape"
+# print(f" modified single element: {my_list}")
+
+# my_list = ["apple", "banana", "cheery", "date"]
+# my_list[2] = "grape", "gavava"
+# print(f"{my_list}")
+
+# my_list = ["apple", "banana", "cheery", "date"]
+# my_list[0:2] = ['mango', 'blueberry']
+# print(f" {my_list}")
+
+# my_list = ["gavava", "orange", "onion", "mango"]
+# my_list[1:2] = ['papaya', 'dragonfruit']
+# print(f" {my_list}")
+
+# my_list = ["apple", "banana", "cheery", "date"]
+# my_list[2:4] = ["mango", 'orange', 'gavava']
+# print(f" {my_list}")
+
+# list1 = [8, 90, 'yrt']
+# list2 = [23, 678, 'vfx']
+# combinedlist = [list1 + list2]
+# print(f" {combinedlist}")
+

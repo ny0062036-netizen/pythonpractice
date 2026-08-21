@@ -181,3 +181,107 @@
 # else:
 #     print("invalid")
 
+# a = 'hello'
+# i = 0
+# vow = 0
+# while i < len(a):
+#     if a[i] in 'aeiou':
+#         vow += 1
+#     i += 1
+# print(vow)
+
+# Write a program to find and print the total number of spaces inside a string.
+
+# a = "i live in india."
+
+# count = 0
+# for x in a:
+#     if x == " ": 
+#       count += 1
+# print(count)
+
+# a = "i live in india."
+
+# count = 0
+# i = 0
+
+# while i < len(a):
+
+#     if a[i] == " ":
+#         count += 1
+    
+#     i += 1
+# print(count)
+
+# a = "a e i o u "
+# count = 0
+
+# for x in a:
+#     if x == " ":
+#         count += 1
+# print(count)
+
+# a = "a e i o u "
+
+# count = 0
+# i = 0
+
+# while i < len(a):
+#     if a[i] == " ":
+#         count += 1
+#     i += 1
+# print(count)
+
+### intermidiate
+
+# Write a program to check whether a given string is a palindrome using loops
+
+# a = "nitin"
+# # print(a[::-1])
+
+# if a == a:
+#     print('palindrome')
+#     print('True')
+# else:
+#     print('not palindrome')
+
+# Write a program that converts every alternate character to uppercase (e.g., "python" → "PyThOn").
+
+# a = 'python'
+# print(a.())
+
+# write a program to extract and print only the numerical digit from a mixed string
+
+# a = "this is day 20 of my class and we try indexing from numbers 1, 2, 3, 4 and so on."
+
+# for x in a:
+#     if x in "0123456789":
+#         print(x)
+
+# v = "s,,j,hf 5637 74283 sjhyf 867"
+
+# for x in v:
+#     if x in "0123456789":
+#       print(x)
+
+# a = "this is day 20 of my class and we try indexing from numbers 1, 2, 3, 4 and so on."
+
+# for x in a:
+#     if x not in "0123456789":
+#         continue
+#     print(x)
+
+# Write a program to remove all duplicate characters from a string using loops.
+
+# a = "this is the very beautiful flower"
+
+# for x in a:
+#     if a.count(x) == 1:
+#         print(x)
+
+# a = "this is the very beautiful flower"
+
+# for x in a:
+#     if a.count(x) == 2:
+#         print(x)
+

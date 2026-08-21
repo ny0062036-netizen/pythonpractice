@@ -29,3 +29,78 @@
 # url = 'https://xyz.com'
 # print(url.endswith('https'))
 
+
+# How do you reverse a string using only slicing?
+
+# my_string = "abcdef"
+# print(my_string[::-1])
+
+# Write a program to convert the first letter of a string to uppercase and the rest to lowercase.
+
+# my_string = "nikku"
+# print(my_string.title())
+
+# How do you find the total number of characters in a string?
+
+# my_string = "abcdef"
+# print(len(my_string))
+
+# How do you count how many times the letter "a" appears without using a loop?
+
+# my_string = "letter"
+# print(my_string.count("t"))
+
+# text = "apple"
+# print(text.count("l"))
+
+# Given "Jaipur", how do you extract just the first three characters ("Jai")?
+
+# city = "jaipur"
+# print(city[:3])
+
+# How do you check if a string ends with "ing" without using a loop?
+ 
+# a = 'abcding'
+# print(a.endswith('ing'))
+
+# How do you replace all spaces in a string with hyphens?
+
+# c = ' sjfjhfnnbf '
+# print(c)
+# print(c.replace(" ","-"))
+
+# a = ' abcdefgh '
+# print(a.replace(" ", "-"))
+
+# How do you check if a string contains only numbers?
+
+# n = "12345678"
+# print(n.isnumeric())
+
+# a = '234567'
+# print(a.isnumeric())
+
+# How do you find the starting index of the word "Python" inside a longer sentence?
+
+
+
+
+# How do you check if a string is a palindrome using slicing?
+
+# a = 'madam'
+# print(a[::-1])
+
+# text = 'nitin'
+
+# if text  == text:
+#     print("it's a palindrome string")
+# else:
+#     print("it's not a palindrome")
+
+# b = 'mom'
+
+# if b == b:
+#     print("true")
+# else:
+#     print("false")
+
