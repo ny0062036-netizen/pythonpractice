@@ -598,3 +598,8 @@
 # combinedlist = [list1 + list2]
 # print(f" {combinedlist}")
 
+# list1 = [98, 89, 'iuy']
+# list2 = [89, 65, 'imj']
+# repeted_list = list1 * 4
+# print(f" {repeted_list}")
+
