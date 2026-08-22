@@ -1,255 +1,40 @@
- *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        .sec1{
-            width: 100%;
-            height: 130vh;
-            background-color: #332B29;
-        }
-        .sec1inner1{
-            width: 100%;
-            height: 130vh;   
-            background-color: #332B29;
-        }
-        .sec1innerbox1{
-            width: 50%;
-            height:100vh;
-            float: left;
-            padding:100px ;
-        }
-        .sec1innerbox2{
-            width: 50%;
-            height: 100vh;
-            float: left;
-        }
-        .sec1img{
-            width: 100%;
-            position: relative;
-            left: 200px;
-        }
-        
-        .sec1btn{
-            font-size: 25px;
-            position: relative;
-            left: 200px;
-            top: 30px;
-            padding: 16px 30px;
-            border: 2px solid white;
-            color: white;
-            background-color: #332B29;
-            cursor: pointer;
-            margin-top: 10px;
-         
-        }
-        .sec1btn:hover{
-            background-color: white;
-            color:#332B29 ;
-            border-color: #332B29;
-        }
-        .sec1innerbox2child1{
-            width: 500px;
-            position: relative;
-            top: 200px;
-        }
-        .sec1innerbox2child1 h1{
-            font-size: 73px;
-            color: white;
-        }
-        .sec1innerbox2child1 h2{
-            font-size: 35px;
-            color: white;
-            font-weight: lighter;
-        }
-        .sec1innerbox2child1 p{
-            color: white;
-            font-size: 20px;
-        }
+/* h1 { */
+    /* color: aqua; */
+/* } */
 
-
-        .sec1innerbox1   p{
-            color: white;
-            font-size: 23px;
-            position: relative;
-            top: 20px;
-            left: 200px;
-            letter-spacing: 3px;
-            
-            font-family: 'Times New Roman', Times, serif;
-        }
-        .sec1inner2{
-            width:100%;
-            height: 450PX;
-            background-color:#332B29;
-            float: left;
-        
-
-        }
-         .squarebox1{
-            width: 260px;
-            height: 350px;
-            position: relative;
-            background-color:#F0612D;
-            float: left;
-            margin: 20px;
-            left: 50px;
-        } 
-        .chilsuarebox2{
-            width: 100px;
-            height: 100px;
-            position: relative;
-            background-color: white;
-            margin-top: 30px;
-            left: 20px;
-        }
-        .squarebox1 p{
-            font-size: 19px;
-            color: white;
-            position: relative;
-            top: 8px;
-            left: 12px;
-            
-            
-        }
-        .squarebox1 h1{
-            font-size: 30px;
-            color: white;
-            margin: 15px;
-            left:12px ;
-        }
-        .iconbox{
-            font-size: 80px;
-            color:#F0612D;
-        
-            
-        }
-        .sec2{
-            width: 100%;
-            height: 100vh;
-            background-image:url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/eb761ef6d7f45e82b76f5101/vcc-min.jpg);
-            background-size: cover;
-            margin-top:450px ;
-            
-            
-        }
-        .sec2inner2{
-            width: 50%;
-            height: 100vh;
-            float: left;
-            padding: 50px;
-            
-
-        }
-        .sec2inner2box{
-            width: 80%;
-            height:150px;
-            background-color: white;
-            margin: 20px ; 
-            padding: 40px;
-            box-shadow: 0px 0px 3px 4px white; 
-              
-        }
-        .sec3{
-            width: 100%;
-            height: 120vh;
-            background-color: #332B29;
-
-        }
-        .sec3inner1{
-            width: 30%;
-            height: 80vh;
-            float: left;
-        }
-        .sec3inner2{
-            width: 70%;
-            height:80vh;
-            float:left;
-            padding: 40px;
-        
-
-        }
-        .sec3inner1box{
-            width: 550px;
-            height: 250px;
-            background-color: #F0612E;
-            color: white;
-            position: relative;
-            top: 400px;
-            left: 200px;
-            padding: 50px;
-        }
-
-        .sec3inner1box h1{
-            font-size: 60px;
-        }
-
-        .sec4{
-            width: 100%;
-            height: 300px;
-            background-color: #332B29;
-        }
-
-        .sec4 p{
-            width: 60%;
-            height: auto;
-            color: white;
-            float: left;
-            position: relative;
-            left: 350px;
-            margin-top: 10px;
-            font-size: 25px;
-
-
-        }
-
-        .sec5{
-            width: 100%;
-            height: 120vh;
-            background-image: url(blackgirlimage.jpg);
-            background-size: cover;
-
-            
-        }
-      
-.sec5inner1 {
-    width: 60%;
-    height: 300px;
-    background-color: white;
-    float: left;
-    position: relative;
-    top: 200px;
-    left: 130px;
-    padding: 30px;
+/* h1 {
+    color: blue;
 }
 
-.sec5inner1 h1{
-    font-size: 60px;
+p {
+    color: blueviolet;
 }
 
-.sec5inner1 p{
-    font-size: 20px;
-    color: white;
-    position: relative;
-    top: 70PX;   
+button {
+    color: brown;
+    background-color: black;
 }
 
-.sec2btn {
-    font-size: 25px;
-    position: relative;
-    top: 100px;
-    background-color: transparent;
-    border: 2px solid white;
-    padding: 16px 30px;
-    color: white;
+body {
+    background-color: aqua;
+} */
+/* 
+* {
+    /* color: pink; */
+} */
+
+/* h1 {
+    color: green;
+} */
+
+/* #HEADINGONE {
+    color: yellow ;
 }
 
-.sec2btn:hover {
-    font-size: 25px;
-    position: relative;
-    top: 100px;
-    background-color: white;
-    border: 2px solid white;
-    padding: 16px 30px;
-    color: black;
-}
+#HEADINGTWO {
+    color: blue ;
+} */
+
+/* .myclass { */
+    /* color: ; */
+/* } */
