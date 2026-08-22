@@ -352,6 +352,3 @@
 #     i += 1
 # print(vow)
 
-# a = "python"
-# print(a.swapcase())
-

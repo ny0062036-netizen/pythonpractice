@@ -190,6 +190,10 @@
 #     i += 1
 # print(vow)
 
+
+
+### with loops
+
 # Write a program to find and print the total number of spaces inside a string.
 
 # a = "i live in india."
@@ -213,6 +217,9 @@
 #     i += 1
 # print(count)
 
+# Write a program to count the total number of vowels in a string using a loop.
+
+
 # a = "a e i o u "
 # count = 0
 
@@ -230,7 +237,18 @@
 #     if a[i] == " ":
 #         count += 1
 #     i += 1
-# print(count)
+# print(count)  
+
+# Write a program to reverse a given string using a for loop.
+
+# a = 'indiapython'
+# reverse = ""
+
+# for x in a:
+#     reverse = x + reverse
+
+# print(reverse)
+
 
 ### intermidiate
 
@@ -247,8 +265,12 @@
 
 # Write a program that converts every alternate character to uppercase (e.g., "python" → "PyThOn").
 
-# a = 'python'
-# print(a.())
+# data = 'python'
+# for x in range(len(data)):
+#     if x % 2 == 0:
+#         print(data[x].upper())
+#     else:
+#         print(data[x])
 
 # write a program to extract and print only the numerical digit from a mixed string
 
@@ -284,4 +306,36 @@
 # for x in a:
 #     if a.count(x) == 2:
 #         print(x)
+
+# i = 1
+# total = 0
+
+# while i <= 10:
+
+#     item = int(input("enter your item price: "))
+#     if item > 0:
+#         total =+ item
+#         i += 1
+
+# Write a program to count how many times a specific character appears without using .count().
+
+# text = "banana"
+# char = 'a'
+
+# count = 0
+
+# for ch in text:
+#     if ch == char:
+#         count += 1
+# print(count)
+
+# text = "apple"
+# char = "p"
+
+# count = 0
+
+# for ch in text:
+#     if ch == char:
+#         count += 1
+# print(count)
 

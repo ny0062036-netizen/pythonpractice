@@ -30,6 +30,10 @@
 # print(url.endswith('https'))
 
 
+
+######### strings with no loops:
+
+
 # How do you reverse a string using only slicing?
 
 # my_string = "abcdef"
@@ -82,7 +86,8 @@
 
 # How do you find the starting index of the word "Python" inside a longer sentence?
 
-
+# a = 'i learn Python for ten days.'
+# print(a.find('Python'))
 
 
 # How do you check if a string is a palindrome using slicing?
