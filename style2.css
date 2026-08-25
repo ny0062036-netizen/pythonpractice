@@ -1,0 +1,22 @@
+/* .main p {
+    background-color: blueviolet;
+} */
+
+/* child shibling  */
+
+/* .main>p {
+    background-color: blueviolet;
+} */
+
+/* adjacent */
+
+/* .main + p {
+  background-color: blueviolet;
+} */
+
+/* general sibling selector */
+
+/* .main ~ p{
+    background-color: blueviolet;
+} */
+
