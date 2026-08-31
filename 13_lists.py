@@ -692,3 +692,74 @@
 # print(my_list.pop())
 # print(my_list)
 
+# my_list = ['apple', 'cheery', 'banana', 'apple', 123, [1,2]]
+# print(my_list.pop())
+# print(my_list)
+
+# number = [4, 6, 8, 1, 0, 45, 44, 67]
+# number.sort()
+# print(number)
+
+# number = [4, 6, 8, 1, 0, 45, 44, 67]
+# number.sort(reverse = True)
+# print(number)
+
+# word = ['apple', 'cheery', 'nikku', 'sonm', 'viraj', 'mohs', 'bsert']
+# word.sort()
+# print(word)
+
+# word = ['apple', 'cheery', 'nikku', 'sonm', 'viraj', 'mohs', 'bsert']
+# word.sort(reverse = True)
+# print(word)
+
+# sorted_list = sorted([1, 2, 4, 3, 5, 6, 4, 3, 2, 1])
+# print(sorted_list)
+
+# sorted_list = sorted([1, 2, 4, 3, 5, 6, 4, 3, 2, 1], reverse = True)
+# print(sorted_list)
+
+# list = [1, 2, 2, 2, 3, 4, 5, 6, 2, 7, 2]
+# print(f" count of 2: {list.count(2)}")
+
+# list = [1, 2, 2, 2, 3, 4, 5, 6, 2, 7, 2]
+# print(f" count of 3: {list.count(3)}")
+
+# list = [1, 2, 2, 2, 3, 4, 5, 6, 2, 7, 2]
+# print(f" count of 10: {list.count(10)}")
+
+# oer = ['orange', 'apple', 'gavava', 'strawberry', 'dragonfruit']
+# print(oer.index('gavava'))
+
+# my_list = [1, 23, 334, 34]
+# my_list.reverse()
+# print(my_list)
+
+# a = [1, 2, 3]
+# b = a
+# print(a,b)
+# b.pop()
+# print(a,b)
+
+# a = [23, 45, 67, 78, 89, 77, 67]
+# b = a.copy()
+# b.append(89)
+# print(a)
+# print(b)
+
+# a = [23, 45, 67, 78, 89, 77, 67]
+# a.clear()
+# print(a)
+
+# a = ['hello', 'how', 'are', 'you']
+# b = len(a)
+# print(b)
+
+# a = ['hello', 'how', 'are', 'you']
+# for x in a:
+#     print(x)
+
+# a = ['hello', 'how', 'are', 'you']
+# for x in a:
+#     for y in x:
+#         print(y)
+
