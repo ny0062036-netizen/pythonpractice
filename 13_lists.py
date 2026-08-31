@@ -763,3 +763,17 @@
 #     for y in x:
 #         print(y)
 
+# a = 'this is a test py and small'
+# b = a.split()
+# print(type(b))
+# print(a)
+# print(b)
+
+# a = '''
+#     hello this is a split sctreen
+#     of
+#     multiple methofs
+#     lines'''
+# print(a.split())
+# print(a)
+
