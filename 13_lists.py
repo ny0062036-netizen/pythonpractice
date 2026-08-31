@@ -612,3 +612,83 @@
 # print(a[-3:-8:-1])
 # print(a[-2:-10:-2])
 
+
+# ll = ["qwer", 'wjhef', 'kfnfekj', [23, 789, 8907], 'jnjr']
+# ll.append('nikku')
+# print(ll)
+
+# pop = ['afbhb', 'jbhf', 'iqhdf', 'kqwdb', [234, 4456, 678, 678], 'xgh']
+# pop.append('bullshit')
+# print(pop)
+
+# listw = ['banana', 'apple', 'gavava', 'cheery', 123, [1,2]]
+# listw.insert(3, 'grape')
+# print(listw)
+
+# loik = ['asus', 'lenovo', 'victus', 'hp', 'dell', 'mackbook', [123, 446], 12, 3,4]
+# loik.insert(6, 'oppo')
+# print(f" {loik}")
+
+# loik = ['asus', 'lenovo', 'victus', 'hp', 'dell', 'mackbook', [123, 446], 12, 3,4]
+# loik.insert(-4, 'lava')
+# print(f"after insert: {loik}")
+
+# loik = ['asus', 'lenovo', 'victus', 'hp', 'dell', 'mackbook', [123, 446], 12, 3,4]
+# loik.insert(90, 'realme')
+# print(loik)
+
+# loik = ['asus', 'lenovo', 'victus', 'hp', 'dell', 'mackbook', [123, 446], 12, 3,4]
+# loik.insert(-21, 'vivo')
+# print(loik)
+
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# a.append([1, 2, 3, 4])
+# print(a)
+
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9,]
+# a.extend([1, 2, 3, 4])
+# print(a)
+
+# b = [45, 67,89, 90, 23, 43, 93487, 9987, 87 ]
+# b.append([1,2,3,4])
+# print(b)
+# b.extend([1,3,4,5,6])
+# print(b)
+
+# v = ['sjgf', 'jsfh', [1, 3, 5, 6, 7], 'mzjgf', 'kfh', [12, 34, 56, 78]]
+# v.extend([00,00,00])
+# print(v)
+
+# b = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# b.append('hello')
+# b.extend('hello')
+# print(b)
+
+# my_list = ['apple', 'cheery', 'banana', 'apple', 123, [1,2]]
+# my_list.remove('apple')
+# print(my_list)
+
+# my_list = ['apple', 'cheery', 'banana', 'apple', 123, [1,2]]
+# my_list[0] = 'vivo'
+# print(my_list)
+
+# my_list = ['apple', 'cheery', 'banana', 'apple', 123, [1,2] ]
+# my_list[5] = 'realme'
+# print(my_list)
+
+# my_list = ['apple', 'cheery', 'banana', 'apple', 123, [1,2]]
+# del my_list[-3]
+# print(my_list)
+
+# a = 23
+# del a
+# print(a)
+
+# my_list = ['apple', 'cheery', 'banana', 'apple', 123, [1,2]]
+# my_list.pop(-4)
+# print(my_list)
+
+# my_list = ['apple', 'cheery', 'banana', 'apple', 123, [1,2]]
+# print(my_list.pop())
+# print(my_list)
+
