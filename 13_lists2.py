@@ -565,3 +565,11 @@
 #     new_list.append(x * x)
 #     print(new_list)
 
+
+# b = [1, 2, 3, 5, 7, 8, 9]
+# new_list = []
+
+# for x in b:
+#     new_list.append(x * x)
+# print(new_list)
+
