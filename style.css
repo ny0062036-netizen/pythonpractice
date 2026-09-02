@@ -1,1222 +1,874 @@
-/* =========================
-   RESET
-========================= */
-
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #f5f7fb;
-    color: #172033;
-    line-height: 1.6;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-}
-
-
-/* =========================
-   HEADER
-========================= */
-
-.header {
-    background: #07152f;
-    color: white;
-    position: sticky;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    top: 0px;
-}
-
-.top-info {
-    max-width: 1400px;
-    margin: auto;
-    padding: 16px 5%;
+/* sec1 start */
+.sec1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./gymgirl.png);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.brand h1 {
-    color: #ffd21c;
-    font-size: 24px;
-    line-height: 1.2;
-}
-
-.brand h2 {
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin-top: 3px;
-}
-
-.owner-info {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    font-size: 14px;
-}
-
-.header-actions {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-}
-
-.btn {
-    display: inline-flex;
-    align-items: center;
     justify-content: center;
-    gap: 7px;
-    padding: 10px 14px;
-    border-radius: 7px;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    transform: translateY(-2px);
-}
-
-.call-btn {
-    background: #1769aa;
-}
-
-.whatsapp-btn {
-    background: #18a957;
-}
-
-.location-btn {
-    background: #f0b900;
-    color: #111;
-}
-
-.language-buttons {
-    display: flex;
-    gap: 6px;
     align-items: center;
+    color: white;
+    padding: 30px;
 }
 
-.language-buttons button {
-    padding: 10px 14px;
+
+.sec1container {
+    width: 650px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.sec1 h1 {
+    font-size: 70px;
+}
+
+.sec1 p {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    background-color:#ffc63d;
+    font-size: 25px;
     border: none;
-    border-radius: 6px;
-    background-color: #2196f3;
-    color: black;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3s;
+    padding: 16px 30px;
 }
 
-.language-buttons button:hover {
-    transform: translateY(-2px);
-    background: #f0f0f0;
+.btn-primary:hover {
+    background-color: white;
+    color: #ffc63d;
 }
 
-/* =========================
-   NAVBAR
-========================= */
 
-.navbar {
-    border-top: 1px solid rgba(255,255,255,0.12);
-    max-width: 1400px;
-    margin: auto;
-    padding: 0 5%;
-    min-height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-logo {
-    font-weight: bold;
-    color: #ffd21c;
-    font-size: 16px;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 22px;
-}
-
-.nav-links a {
+.btn-outline-primary {
+    background-color:transparent;
+    font-size: 25px;
+    border: none;
+    padding: 16px 30px;  
+    border: 2px solid #ffc63d; 
     color: white;
-    font-size: 14px;
-    transition: 0.3s;
+    font-weight: 500;
 }
 
-.nav-links a:hover {
-    color: #ffd21c;
+.btn-outline-primary:hover {
+    background-color:#ffc63d ;
+    font-size: 25px;
+    border: none;
+    padding: 16px 30px;
+}
+
+.btn-primary-transparent {
+    background-color: transparent;
+    font-size: 25px;
+    border: none;
+    border: 2px solid #ffc63d;
+    padding: 16px 30px;
+}
+
+.btn-primary-transparent:hover {
+    background-color: #ffc63d;
+    font-size: 25px;
+    border: none;
+    padding: 16px 30px;
+    
 }
 
 
-/* =========================
-   HERO
-========================= */
-
-.hero {
-    min-height: 650px;
-    background:
-        linear-gradient(
-            120deg,
-            #07152f,
-            #102c57
-        );
-
-    color: white;
-    padding: 80px 7%;
-
-    display: grid;
-    grid-template-columns: 1.5fr 0.7fr;
-    align-items: center;
-    gap: 50px;
-}
-
-.hero-content {
-    max-width: 800px;
-}
-
-.experience-badge {
-    display: inline-block;
-    background: #ffd21c;
-    color: #111;
-    padding: 8px 15px;
-    border-radius: 30px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.hero h1 {
-    font-size: clamp(38px, 5vw, 68px);
-    line-height: 1.05;
-    margin-bottom: 20px;
-}
-
-.hero h1 span {
-    color: #ffd21c;
-}
-
-.hero-subtitle {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.hero-description {
-    color: #d6deed;
-    font-size: 17px;
-    max-width: 700px;
-}
-
-.hero-location {
-    margin: 25px 0;
-    font-weight: bold;
-    color: #ffd21c;
-}
-
-.hero-buttons {
+.box-hero {
     display: flex;
-    gap: 12px;
+    gap: 30px;
+    margin-top: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/* sec1 end */
+
+/* sec2 start */
+
+.sec2 {
+    width: 100%;
+    height: auto;
+    background-color: #ffc63d;
+    display: flex;
+    padding: 30px;
     flex-wrap: wrap;
+} 
+
+.sec2box1 {
+    width: 50%;
+    height: 500px;
+    padding: 25px;
 }
 
-.primary-btn,
-.secondary-btn {
-    padding: 14px 22px;
-    border-radius: 8px;
-    font-weight: bold;
-    display: inline-flex;
-    gap: 8px;
+.sec2box1 {
+    display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.primary-btn {
-    background: #ffd21c;
-    color: #111;
-}
-
-.secondary-btn {
-    background: #19a95b;
-    color: white;
-}
-
-.primary-btn:hover,
-.secondary-btn:hover {
-    transform: translateY(-3px);
+    gap: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80vh;
 }
 
 
-/* =========================
-   VISIT CARD
-========================= */
+.sec2box2 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+} 
 
-.visit-card {
-    background: white;
-    color: #182238;
-    padding: 35px;
-    border-radius: 18px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.25);
-    border-top: 7px solid #ffd21c;
+
+.sec2box2innerbox {
+    width: 50%;
+    height: auto;
+    line-height: 2.5;
+    padding: 20px;
 }
 
-.warning-icon {
-    font-size: 40px;
+.sec2box2innerbox h1{
+    font-size: 60px;
 }
 
-.visit-card h2 {
-    font-size: 22px;
-    margin: 8px 0;
+.sec2box2innerbox h3 {
+    font-size: 30px;
 }
 
-.visit-price {
-    color: #d28c00;
-    font-size: 55px;
-    font-weight: 900;
-    margin-bottom: 10px;
-}
-
-.visit-card p {
-    font-size: 14px;
-    margin: 12px 0;
-}
-
-.terms {
-    color: #c00000;
-}
-
-
-/* =========================
-   COMMON SECTION
-========================= */
-
-.section {
-    padding: 80px 7%;
-}
-
-.section-title {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 45px;
-}
-
-.section-title h2 {
-    font-size: 38px;
-    color: #07152f;
-    margin-bottom: 10px;
-}
-
-.section-title p {
-    color: #657085;
-}
-
-
-/* =========================
-   SERVICE AREA
-========================= */
-
-.service-area {
-    background: white;
-}
-
-.village-grid {
-    max-width: 1000px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns:
-        repeat(5, 1fr);
-
-    gap: 15px;
-}
-
-.village {
-    background: #f4f7fb;
-    border: 1px solid #dce2ec;
-    padding: 18px;
-    border-radius: 10px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.village:hover {
-    background: #ffd21c;
-}
-
-.service-area-warning {
-    max-width: 900px;
-    margin: 30px auto 0;
-    padding: 15px;
-    text-align: center;
-    border-radius: 8px;
-    background: #fff3cd;
-    color: #765900;
-    font-weight: bold;
-}
-
-
-/* =========================
-   SERVICES
-========================= */
-
-.service-grid {
-    display: grid;
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    gap: 22px;
-    max-width: 1400px;
-    margin: auto;
-}
-
-.service-card {
-    background: white;
-    border-radius: 15px;
-    padding: 28px 22px;
-    box-shadow: 0 8px 30px rgba(20,40,80,0.08);
-    border: 1px solid #e5eaf2;
-    transition: 0.3s;
-}
-
-.service-card:hover {
-    transform: translateY(-7px);
-    box-shadow: 0 15px 35px rgba(20,40,80,0.14);
-}
-
-.service-icon {
-    font-size: 40px;
-}
-
-.service-card h3 {
-    margin: 12px 0 5px;
+.sec2box2innerbox p {
     font-size: 20px;
 }
 
-.service-price {
-    color: #d38b00;
-    font-size: 20px;
-    font-weight: 900;
-    margin-bottom: 10px;
+.sec2imagebox {
+    width: 25%;
+    height: 300px;
+    background-color: transparent;
 }
 
-.service-card p {
-    color: #657085;
-    min-height: 48px;
-    font-size: 14px;
+.sec2imagebox3{
+    height: 400px;
+    
 }
 
-.book-service {
-    display: block;
+.sec2imageboxinner1 {
+    width: 100%;
+    height: 250px;
+    background-image: url(./swimming.png);
+    background-size: cover;
+}
+
+.sec2imageboxinnerboxing {
+    width: 100%;
+    height: 250px;
+    background-image: url(./boxing.png);
+    background-size: cover;
+}
+
+.sec2imageboxinneryoga {
+    width: 100%;
+    height: 250px;
+    background-image: url(./yoga.png );
+    background-size: cover;
+}
+
+.sec2imageboxinnerfitness{
+    width: 100%;
+    height: 250px;
+    background-image: url(./fitness.png );
+    background-size: cover;
+}
+
+.sec2imageboxinnerwellness{
+   width: 100%;
+    height: 250px;
+    background-image: url(./wellness.png );
+    background-size: cover;
+}
+
+
+.sec2imageboxinner2 {
+    width: 100%;
+    height: 50px;
+    background-color: white;
     text-align: center;
-    margin-top: 20px;
     padding: 10px;
-    border-radius: 7px;
-    background: #07152f;
-    color: white;
-    font-weight: bold;
+    color: black;
 }
 
-.book-service:hover {
-    background: #ffd21c;
-    color: #111;
-}
+/* sec2 end  */
 
+/* sec3 start */
 
-/* =========================
-   PRICE TABLE
-========================= */
-
-.price-section {
-    background: white;
-}
-
-.table-container {
-    max-width: 1100px;
-    margin: auto;
-    overflow-x: auto;
-}
-
-table {
+.sec3 {
     width: 100%;
-    border-collapse: collapse;
-    background: white;
+    height: 80vh;
+    background-image: url(./dumble.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
 }
 
-th,
-td {
-    padding: 15px;
-    border: 1px solid #dce2ec;
-    text-align: left;
+
+.sec3innerbox {
+    width: 50%;
+    height: auto;
+
 }
 
-th {
-    background: #07152f;
+.sec3innerbox h1{
     color: white;
+    font-size: 60px;
 }
 
-td:last-child {
-    font-weight: bold;
-    color: #c27c00;
-}
-
-tr:nth-child(even) {
-    background: #f7f9fc;
-}
-
-.price-note {
-    max-width: 1100px;
-    margin: 25px auto 0;
-    background: #fff6d9;
-    padding: 20px;
-    border-left: 5px solid #ffd21c;
-}
-
-
-/* =========================
-   POLICY
-========================= */
-
-.policy-section {
-    background: #eef3f9;
-}
-
-.policy-grid {
-    max-width: 1100px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns:
-        repeat(2, 1fr);
-
-    gap: 25px;
-}
-
-.policy-box {
-    padding: 30px;
-    border-radius: 15px;
-    background: white;
-}
-
-.green-policy {
-    border-top: 6px solid #18a957;
-}
-
-.red-policy {
-    border-top: 6px solid #d63636;
-}
-
-.policy-box h3 {
-    margin-bottom: 15px;
-}
-
-.example {
-    margin-top: 20px;
-    padding: 15px;
-    background: #f2f5f8;
-    border-radius: 8px;
-}
-
-.terms-bottom {
-    text-align: center;
-    margin-top: 30px;
-    font-weight: bold;
-}
-
-
-/* =========================
-   GENUINE POLICY
-========================= */
-
-.genuine-section {
-    background: #fff9e8;
-}
-
-.genuine-box {
-    max-width: 1100px;
-    margin: auto;
-    background: white;
-    padding: 35px;
-    border-left: 7px solid #e0a400;
-    border-radius: 10px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
-}
-
-.genuine-box h2 {
-    margin-bottom: 20px;
-    color: #8a6500;
-}
-
-.genuine-box p {
-    margin-bottom: 14px;
-}
-
-
-/* =========================
-   BOOKING FORM
-========================= */
-
-.booking-section {
-    background: #07152f;
+.sec3innerbox ul li{
     color: white;
+    font-size: 25px;
+    line-height: 2;
+    list-style: none;
+    margin: 20px;
 }
 
-.booking-section .section-title h2 {
-    color: white;
+.sec3innerbox ul li::before {
+    content: "✅";
 }
 
-.booking-section .section-title p {
-    color: #cbd5e5;
+.sec3innerbox button {
+    margin-top: 40px;
 }
 
-.booking-form {
-    max-width: 850px;
-    margin: auto;
-    background: white;
-    color: #172033;
-    padding: 35px;
-    border-radius: 15px;
-}
+/* sec 3 end */
 
-.form-group {
-    margin-bottom: 20px;
-}
+/* sec4 start */
 
-.form-group label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 7px;
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
+.sec4 {
     width: 100%;
-    padding: 13px;
-    border: 1px solid #ccd3df;
-    border-radius: 7px;
-    font-size: 15px;
-    outline: none;
-}
-
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-    border-color: #e2ad00;
-}
-
-.form-group textarea {
-    min-height: 110px;
-    resize: vertical;
-}
-
-.form-group small {
-    color: #b00000;
-    display: block;
-    margin-top: 5px;
-}
-
-.checkbox-group {
-    background: #f5f7fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 25px 0;
-}
-
-.checkbox-group label {
-    display: block;
-    margin-bottom: 13px;
-    font-size: 14px;
-}
-
-.checkbox-group input {
-    margin-right: 8px;
-}
-
-.submit-btn {
-    width: 100%;
-    border: none;
-    padding: 16px;
-    background: #18a957;
-    color: white;
-    border-radius: 8px;
-    font-size: 17px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.submit-btn:hover {
-    background: #128844;
-}
-
-
-/* =========================
-   GUARANTEE
-========================= */
-
-.guarantee-section {
-    background: white;
-}
-
-.guarantee-grid {
-    max-width: 1200px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 25px;
-}
-
-.guarantee-card {
-    padding: 30px;
-    background: #f7f9fc;
-    border-radius: 14px;
-    text-align: center;
-}
-
-.guarantee-icon {
-    font-size: 45px;
-    margin-bottom: 15px;
-}
-
-.guarantee-card h3 {
-    margin-bottom: 12px;
-}
-
-
-/* =========================
-   RULES
-========================= */
-
-.rules-section {
-    background: #f3f5f8;
-}
-
-.rules-grid {
-    max-width: 1000px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 20px;
-}
-
-.rule-card {
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    text-align: center;
-    border-top: 5px solid #07152f;
-}
-
-.rule-card span {
-    font-size: 40px;
-}
-
-.rule-card h3 {
-    margin: 12px 0;
-}
-
-
-/* =========================
-   WHY CHOOSE US
-========================= */
-
-.why-section {
-    background: white;
-}
-
-.why-grid {
-    max-width: 1200px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 20px;
-}
-
-.why-card {
-    padding: 30px;
-    border: 1px solid #e1e6ee;
-    border-radius: 12px;
-}
-
-.why-card span {
-    font-size: 35px;
-}
-
-.why-card h3 {
-    margin: 10px 0;
-}
-
-
-/* =========================
-   CONTACT
-========================= */
-
-.contact-section {
-    background: #eef3f9;
-}
-
-.contact-container {
-    max-width: 1100px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns:
-        1.3fr 0.7fr;
-
+    height: 100vh;
+    background-color: #ffc63d;
+    display: flex;
+    flex-wrap: wrap;
     gap: 40px;
-
+    justify-content: center;
     align-items: center;
 }
 
-.contact-info {
-    background: white;
-    padding: 35px;
-    border-radius: 15px;
-}
-
-.contact-info h2 {
-    color: #07152f;
-    margin-bottom: 15px;
-}
-
-.contact-info h3 {
-    margin-bottom: 20px;
-}
-
-.contact-info p {
-    margin-bottom: 12px;
-}
-
-.contact-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-btn {
-    padding: 16px;
-    border-radius: 8px;
+.sec4innerbox {
+    flex-basis: 18%;
+    height: 400px;
+    background-color: aliceblue;
+    padding: 20px;
     text-align: center;
-    font-weight: bold;
-    color: white;
-}
-
-.booking-btn {
-    background: #07152f;
+    line-height: 1.7;
 }
 
 
-/* =========================
-   FINAL CTA
-========================= */
-
-.final-cta {
-    padding: 80px 7%;
-    text-align: center;
-    background: #07152f;
-    color: white;
-}
-
-.final-cta h2 {
-    font-size: 40px;
-    color: #ffd21c;
-}
-
-.final-cta p {
-    font-size: 20px;
-    margin: 10px 0 20px;
-}
-
-.cta-services {
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.cta-buttons {
+.sec4innerbox1 {
+    flex-basis: 100%;
+    height: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.sec4innerbox1 h1 {
+    font-size: 70px;
+}
+
+/* sec4 end */
+
+
+/* sec5 start */
+
+.sec5{
+    width: 100%;
+    height: auto;
+    display: flex;
     flex-wrap: wrap;
-    gap: 12px;
-}
-
-.cta-buttons a {
-    padding: 14px 20px;
-    background: white;
-    color: #07152f;
-    border-radius: 7px;
-    font-weight: bold;
-}
-
-.cta-buttons a:hover {
-    background: #ffd21c;
-}
-
-.final-cta small {
-    display: block;
-    margin-top: 25px;
-    color: #cbd5e5;
-}
-
-
-/* =========================
-   FOOTER
-========================= */
-
-.footer {
-    background: #030b1c;
-    color: #cbd5e5;
-    padding: 60px 7% 20px;
-}
-
-.footer-grid {
-    max-width: 1400px;
-    margin: auto;
-
-    display: grid;
-    grid-template-columns:
-        1.5fr 1fr 1fr 1fr;
-
-    gap: 40px;
-}
-
-.footer h2 {
-    color: #ffd21c;
-    font-size: 21px;
-    margin-bottom: 15px;
-}
-
-.footer h3 {
-    color: white;
-    margin-bottom: 15px;
-}
-
-.footer p {
-    margin-bottom: 7px;
-    font-size: 14px;
-}
-
-.footer a {
-    display: block;
-    color: #cbd5e5;
-    margin-bottom: 8px;
-}
-
-.footer a:hover {
-    color: #ffd21c;
-}
-
-.footer-map-btn {
-    margin-top: 15px;
-    display: inline-block !important;
-    background: #ffd21c;
-    color: #111 !important;
-    padding: 10px 15px;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-.footer-bottom {
-    max-width: 1400px;
-    margin: 45px auto 0;
-    padding-top: 20px;
-    border-top: 1px solid #263249;
-    text-align: center;
-    font-size: 13px;
-}
-
-
-/* =========================
-   MOBILE BOTTOM BAR
-========================= */
-
-.mobile-bottom-bar {
-    display: none;
-}
-
-
-/* =========================
-   RESPONSIVE TABLET
-========================= */
-
-@media (max-width: 1100px) {
-
-    .top-info {
-        flex-wrap: wrap;
-    }
-
-    .nav-links {
-        gap: 12px;
-    }
-
-    .service-grid {
-        grid-template-columns:
-            repeat(3, 1fr);
-    }
-
-    .village-grid {
-        grid-template-columns:
-            repeat(3, 1fr);
-    }
-
-    .hero {
-        grid-template-columns: 1fr;
-    }
-
-    .visit-card {
-        max-width: 650px;
-    }
-
-    .footer-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
 
 }
 
+.sec5innerbox1 {
+    height: auto;
+    width: 50%;
+    position: relative;
+}
 
-/* =========================
-   RESPONSIVE MOBILE
-========================= */
+.sec5innerbox2 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 150px;
+}
 
-@media (max-width: 768px) {
+.sec5innerbox2 h1 {
+    font-size: 60px;
+}
 
-    body {
-        padding-bottom: 65px;
+.sec5innerbox2 p{
+    font-size: 15px;
+}
+
+.yogaimg1 {
+    position: absolute;
+    left: 130px;
+    top: 110px;
+    width: 455px;
+}
+
+.yogaimg2 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    width: 455px;
+    border: 8px solid white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 578px) {
+
+    .sec1 h1 {
+       font-size: 20px;
     }
 
-    .top-info {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 15px 5%;
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
     }
 
-    .brand h1 {
-        font-size: 21px;
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
     }
 
-    .owner-info {
-        font-size: 13px;
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
     }
 
-    .header-actions {
-        width: 100%;
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
     }
 
-    .btn {
-        flex: 1;
-        min-width: 90px;
+    .sec2imagebox {
+       width: 100%;
+       height: 300px;
+       background-color: transparent;
     }
 
-    .navbar {
-        padding: 15px 5%;
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+    } 
+
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
     }
 
-    .nav-logo {
-        font-size: 13px;
+    .sec2innerbox h1 {
+        font-size: 20px;
     }
+    
+    .sec3 {
+        height: auto;
+        padding: 10px;
+   }
 
-    .nav-links {
-        display: none;
+   .sec3 {
+         width: 100%;
+         height: auto;
+         background-image: url(./dumble.png);
+         background-size: cover ;
+         background-position-x: -300px;
+         display: flex;
+          justify-content: space-around;
+        
     }
+   
+    .sec3innerbox h1{
+       color: white;
+        font-size: 30px;
+    }  
 
-    .hero {
-        padding: 55px 5%;
-    }
-
-    .hero h1 {
-        font-size: 39px;
-    }
-
-    .hero-subtitle {
-        font-size: 16px;
-    }
-
-    .hero-description {
+    .sec3innerbox ul li {
         font-size: 15px;
     }
 
-    .hero-buttons {
-        flex-direction: column;
+    .sec3innerbox {
+        width: 80%;
+        height: auto;
+
     }
 
-    .primary-btn,
-    .secondary-btn {
-        width: 100%;
-        justify-content: center;
+   .sec4innerbox1 h1 {
+     font-size: 30px;
+   }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+}
+
+
+@media screen and (min-width: 578px) and (max-width: 768px) {
+
+    .sec1 h1 {
+       font-size: 30px;
     }
 
-    .visit-card {
-        padding: 25px;
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
     }
 
-    .section {
-        padding: 60px 5%;
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
     }
 
-    .section-title h2 {
-        font-size: 30px;
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
     }
 
-    .service-grid {
-        grid-template-columns: 1fr;
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
     }
 
-    .village-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
+    .sec2imagebox {
+       width: 25%;
+       height: 300px;
+       background-color: transparent;
     }
 
-    .policy-grid {
-        grid-template-columns: 1fr;
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+    } 
+
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+     
+    .sec3 {
+        height: auto;
+        padding: 40px;
     }
 
-    .guarantee-grid {
-        grid-template-columns: 1fr;
+    .sec4innerbox1 h1 {
+     font-size: 30px;
+   }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .sec1 h1 {
+       font-size: 30px;
     }
 
-    .rules-grid {
-        grid-template-columns: 1fr;
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
     }
 
-    .why-grid {
-        grid-template-columns: 1fr;
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
     }
 
-    .contact-container {
-        grid-template-columns: 1fr;
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
     }
 
-    .booking-form {
-        padding: 25px 18px;
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
     }
 
-    .final-cta {
-        padding: 60px 5%;
+    .sec2imagebox {
+       width: 50%;
+       height: 300px;
+       background-color: transparent;
     }
 
-    .final-cta h2 {
-        font-size: 30px;
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+    } 
+
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+    
+    .sec3 {
+        height: auto;
+        padding: 40px;
     }
 
-    .cta-buttons {
-        flex-direction: column;
+    .sec4innerbox1 h1 {
+       font-size: 40px;
     }
 
-    .cta-buttons a {
-        width: 100%;
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .sec1 h1 {
+       font-size: 30px;
+    }
+     
+    .sec1 {
+      width: 100%;
+      height: 100vh;
+      background-image: url(./gymgirl.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      
+
     }
 
-    .footer {
-        padding: 50px 5% 20px;
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
     }
 
-    .footer-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
+       border: 2px solid #ffc63d;
     }
 
-    /* MOBILE BOTTOM BAR */
-
-    .mobile-bottom-bar {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 62px;
-        background: #07152f;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        z-index: 9999;
-        box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
     }
 
-    .mobile-bottom-bar a {
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        font-size: 20px;
-        border-right: 1px solid #253451;
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
+       flex-direction: row;
     }
 
-    .mobile-bottom-bar span {
-        font-size: 11px;
-        margin-top: 2px;
+    .sec2imagebox {
+       width: 20%;
+       height: 300px;
+       background-color: transparent;
+    }
+
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+       text-align: center;
+    } 
+     
+    
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+     
+    .sec3 {
+        height: auto;
+        padding: 40px;
+    }
+
+    .sec4innerbox1 h1 {
+       font-size: 40px;
+    }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+
+    .yogaimg1 {
+       position: absolute;
+       left: 130px;
+       top: 110px;
+       width: 455px;
+    }
+
+    .yogaimg2 {
+       position: absolute;
+       left: 300px;
+       top: 300px;
+       width: 455px;
+       border: 8px solid white;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .sec1 h1 {
+       font-size: 30px;
+    }
+     
+    .sec1 {
+      width: 100%;
+      height: 100vh;
+      background-image: url(./gymgirl.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding: 30px;
+     } 
+
+
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
+    }
+
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
+       border: 2px solid #ffc63d;
+    }
+
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
+    }
+
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 100%;
+       height: auto;
+       padding: 25px;
+       flex-direction: row;
+    }
+
+    .sec2imagebox {
+       width: 20%;
+       height: 300px;
+       background-color: transparent;
+    }
+
+    .sec2box2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+       text-align: center;
+    } 
+     
+    
+
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
+    }
+     
+    .sec3 {
+        height: auto;
+        padding: 40px;
+    }
+
+    .sec4innerbox1 h1 {
+       font-size: 40px;
+    }
+
+    .sec4 {
+       height: auto;
+       padding: 20px;
+    }
+
+    .yogaimg1 {
+       width: 400px;
+
+    }
+
+    .yogaimg2 {
+       width: 400px;
     }
 
 }
 
 
-/* =========================
-   SMALL MOBILE
-========================= */
+@media screen and (min-width: 1400px) and (max-width: 1800px) {
 
-@media (max-width: 480px) {
-
-    .brand h1 {
-        font-size: 18px;
+    .sec1 h1 {
+       font-size: 70px;
+    }
+     
+    .sec1 {
+      width: 100%;
+      height: 100vh;
+      background-image: url(./gymgirl.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding: 30px;
     }
 
-    .brand h2 {
-        font-size: 11px;
+
+    .btn-primary {  
+      font-size: 15px;
+      padding: 10px 15px;
     }
 
-    .header-actions {
-        display: grid;
-        grid-template-columns:
-            repeat(3, 1fr);
+    .btn-primary:hover {
+       font-size: 15px;
+       padding: 10px 15px;
     }
 
-    .btn {
-        font-size: 11px;
-        padding: 9px 5px;
+    .btn-outline-primary {
+        background-color:transparent;
+        font-size: 15px;
+        border: none;
+        padding: 10px 15px;  
     }
 
-    .hero h1 {
-        font-size: 33px;
+    .btn-outline-primary:hover { 
+        padding: 10px 15px;
+        font-size: 15px;
+    }   
+
+    .sec2box1 {
+       width: 50%;
+       height: 80vh;
+       padding: 10px;
+       flex-direction: column;
     }
 
-    .visit-price {
-        font-size: 45px;
+    .sec2imagebox {
+       width: 25%;
+       height: 300px;
+       background-color: transparent;
+
     }
 
-    .village-grid {
-        grid-template-columns: 1fr;
+    .sec2box2 {
+       width: 50%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: start;
+       flex-direction: column;
+    } 
+     
+    .sec2imagebox3 {
+        height: 400px;
+        padding: 20px;
+        width: 30%;
+        
+
     }
 
-    th,
-    td {
-        padding: 10px;
-        font-size: 13px;
+    .sec2box2innerbox {
+       width: 100%;
+       height: auto;
+       line-height: 2.5;
+       padding: 20px;
     }
-
-    .footer h2 {
-        font-size: 18px;
+    
+    .sec3 {
+        height: auto;
+        padding: 40px;
     }
-
 }
-
