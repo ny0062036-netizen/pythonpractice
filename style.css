@@ -14,11 +14,12 @@
     align-items: center;
     color: white;
     padding: 30px;
+    background-size: 100%;
 }
 
 
 .sec1container {
-    width: 650px;
+    width: 600px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -339,8 +340,27 @@
     border: 8px solid white;
 }
 
+.sec6 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.sec6innerbox h1 {
+    color: white;
+}
+
 @media screen and (min-width: 320px) and (max-width: 578px) {
 
+    .sec1 {
+    
+    background-size: cover;
+    background-position-x: -300px;
+    /* background-repeat: no-repeat; */
+}
+
+
+    
     .sec1 h1 {
        font-size: 20px;
     }
@@ -430,20 +450,95 @@
         height: auto;
 
     }
+   
 
-   .sec4innerbox1 h1 {
-     font-size: 30px;
-   }
 
+  
     .sec4 {
        height: auto;
        padding: 20px;
+    }
+
+    .sec4innerbox {
+    flex-basis: 100%;
+    height: 400px;
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    line-height: 1.7;
+}
+ 
+.sec4innerbox1{
+    background-color: transparent;
+    height: auto;
+
+}
+
+
+.sec4innerbox h1{
+    font-size: 25px;
+}
+
+.sec4innerbox span {
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+   .sec5innerbox2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.btn-primary-transparent {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+
+    .yogaimg1 {
+      width: 200px;
+      left: 25px;
+      top: 10px;
+    }
+
+    .yogaimg2 {
+        width: 200px;
+        left: 60px;
+        top: 100px;
+    }
+
+
+    .sec5innerbox2 h1{
+        font-size: 15px;
+        margin-top: 100px;
+        padding: 0px;
+        
+    }
+
+    .sec5innerbox2 p {
+        font-size: 10px;
     }
 }
 
 
 @media screen and (min-width: 578px) and (max-width: 768px) {
 
+    
+    .sec1 {
+    
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+    
     .sec1 h1 {
        font-size: 30px;
     }
@@ -512,6 +607,7 @@
        height: auto;
        padding: 20px;
     }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -584,6 +680,7 @@
        height: auto;
        padding: 20px;
     }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -871,4 +968,12 @@
         height: auto;
         padding: 40px;
     }
+
+    .sec4innerbox span {
+    margin-top: 0px;
+    /* text-align: center;
+    position: relative; */
+    top: 0px;
+}
+
 }
