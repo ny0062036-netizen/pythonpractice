@@ -456,13 +456,10 @@
 @media screen and (min-width: 320px) and (max-width: 578px) {
 
     .sec1 {
-    
-    background-size: cover;
-    background-position-x: -300px;
-}
+        background-size: cover;
+        background-position-x: -300px;
+    }
 
-
-    
     .sec1 h1 {
        font-size: 20px;
     }
@@ -510,7 +507,6 @@
        flex-direction: column;
     } 
 
-
     .sec2box2innerbox {
        width: 100%;
        height: auto;
@@ -525,22 +521,22 @@
     .sec3 {
         height: auto;
         padding: 10px;
-   }
+    }
 
    .sec3 {
-         width: 100%;
-         height: auto;
-         background-image: url(./dumble.png);
-         background-size: cover ;
-         background-position-x: -300px;
-         display: flex;
-          justify-content: space-around;
+        width: 100%;
+        height: auto;
+        background-image: url(./dumble.png);
+        background-size: cover ;
+        background-position-x: -300px;
+        display: flex;
+        justify-content: space-around;
         
     }
    
     .sec3innerbox h1{
        color: white;
-        font-size: 30px;
+       font-size: 30px;
     }  
 
     .sec3innerbox ul li {
@@ -550,7 +546,6 @@
     .sec3innerbox {
         width: 80%;
         height: auto;
-
     }
    
     .sec4 {
@@ -559,48 +554,46 @@
     }
 
     .sec4innerbox {
-    flex-basis: 100%;
-    height: 400px;
-    background-color: aliceblue;
-    padding: 30px;
-    text-align: center;
-    line-height: 1.7;
-}
+       flex-basis: 100%;
+       height: 400px;
+       background-color: aliceblue;
+       padding: 30px;
+       text-align: center;
+       line-height: 1.7;
+    }
  
-.sec4innerbox1{
-    background-color: transparent;
-    height: auto;
+    .sec4innerbox1{
+        background-color: transparent;
+        height: auto;
+    }
 
-}
+    .sec4innerbox h1{
+        font-size: 25px;
+    }
 
-
-.sec4innerbox h1{
-    font-size: 25px;
-}
-
-.sec4innerbox span {
-    margin-top: 10px;
-    text-align: center;
-    position: relative;
-    top: 5px;
-}
+    .sec4innerbox span {
+        margin-top: 10px;
+        text-align: center;
+        position: relative;
+        top: 5px;
+    }
 
    .sec5innerbox2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 50px;
+       flex-wrap: wrap;
+       margin-top: 100px;
+    }
 
-.btn-primary-transparent {
-    font-size: 13px;
-    font-weight: 900;
-}
+    .btn-primary-transparent {
+       font-size: 13px;
+       font-weight: 900;
+    }
 
 
     .yogaimg1 {
@@ -614,7 +607,6 @@
         left: 60px;
         top: 100px;
     }
-
 
     .sec5innerbox2 h1{
         font-size: 15px;
@@ -709,12 +701,12 @@
     }
 
     .sec6yogachildbox1 {
-    width: 100%;
-    height: 150px;
-    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/yy.jpg);
-    background-size: cover;
-    background-position-y: -100px ;
-}
+        width: 100%;
+        height: 150px;
+        background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/yy.jpg);
+        background-size: cover;
+        background-position-y: -100px ;
+    }
 
     .sec6yogachildbox2 {
         width: 100%;
@@ -730,7 +722,6 @@
        background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/mw.jpg);
        background-size: cover;
       background-position-y:-80px ;
-
     }
 
     .sec6meditationchildbox2 {
@@ -740,23 +731,14 @@
         justify-content: space-between;
         padding: opx 20px;
     }
-
-
-
 }
-
-
-
 
 
 @media screen and (min-width: 578px) and (max-width: 768px) {
 
-    
     .sec1 {
-    
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-}
+      background-size: cover;
+    }
     
     .sec1 h1 {
        font-size: 30px;
@@ -819,12 +801,172 @@
     }
 
     .sec4innerbox1 h1 {
-     font-size: 30px;
-   }
+      font-size: 30px;
+    }
 
     .sec4 {
        height: auto;
        padding: 20px;
+    }
+
+    .sec5innerbox2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 50px;
+       flex-wrap: wrap;
+       margin-top: 100px;
+    }
+
+    .btn-primary-transparent {
+       font-size: 13px;
+       font-weight: 900;
+    }
+
+
+    .yogaimg1 {
+      width: 200px;
+      left: 25px;
+      top: 10px;
+    }
+
+    .yogaimg2 {
+        width: 200px;
+        left: 60px;
+        top: 100px;
+    }
+
+    .sec5innerbox2 h1{
+        font-size: 15px;
+        margin-top: 100px;
+        padding: 0px;
+        
+    }
+
+    .sec5innerbox2 p {
+        font-size: 10px;
+    }
+
+    .sec6 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sec6childbox {
+        width: 100% ;
+        height: 80vh;
+    }
+
+    .sec6container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    /* ////////////// */
+     
+    .sec6childboxsize3 {
+        height: 160vh;
+    }
+
+    /* /////////////  */
+    .sec6childboxsize1 {
+       padding: 10px;
+       color: aliceblue;
+    }
+
+    .sec6childboxsize1 h1 {
+        font-size: 40px;
+    }
+
+    .sec6childboxsize1 p {
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .sec6childboxsize1 button {
+        width: 100%;
+        font-size: 20px;   
+    }
+
+
+    /* ////////////// */
+
+    .sec6childinnerbox1 {
+       width: 100%;
+       height: 570px;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/t45.jpg );
+        background-size: cover;
+        background-position-y:-70px ;
+    }
+
+    .sec6childinnerbox2 {
+       width: 100%;
+       height: 70px;
+       background-color: #ffc63d;
+       display: flex;
+       justify-content: space-between;
+       padding: 20px 30px;
+    }
+
+    .sec6childinnerbox2 h1 {
+        font-size: 25px;
+    }
+
+    .sec6childboxsize2 {
+        height: auto;
+    }
+
+    .sec6yogabox {
+        width: 100%;
+        height: 450px;
+        background-color: #ffc63d ;
+    }
+
+    .sec6meditationbox {
+        width: 100%;
+        height: 450px;
+        background-color: #ffc63d;
+    }
+
+    .sec6yogachildbox1 {
+        width: 100%;
+        height: 350px;
+        background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/yy.jpg);
+        background-size: cover;
+        background-position-y: -100px ;
+    }
+
+    .sec6yogachildbox2 {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .sec6meditationchildbox1{
+       width: 100%;
+       height: 350px;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/mw.jpg);
+       background-size: cover;
+      background-position-y:-80px ;
+    }
+
+    .sec6meditationchildbox2 {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
     }
 
 }
@@ -900,6 +1042,166 @@
        padding: 20px;
     }
 
+    .sec5innerbox2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 50px;
+       flex-wrap: wrap;
+       margin-top: 100px;
+    }
+
+    .btn-primary-transparent {
+       font-size: 13px;
+       font-weight: 900;
+    }
+
+
+    .yogaimg1 {
+      width: 200px;
+      left: 25px;
+      top: 10px;
+    }
+
+    .yogaimg2 {
+        width: 200px;
+        left: 60px;
+        top: 100px;
+    }
+
+    .sec5innerbox2 h1{
+        font-size: 15px;
+        margin-top: 100px;
+        padding: 0px;
+        
+    }
+
+    .sec5innerbox2 p {
+        font-size: 10px;
+    }
+
+    .sec6 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sec6childbox {
+        width: 100% ;
+        height: 80vh;
+    }
+
+    .sec6container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    /* ////////////// */
+     
+    .sec6childboxsize3 {
+        height: 160vh;
+    }
+
+    /* /////////////  */
+    .sec6childboxsize1 {
+       padding: 10px;
+       color: aliceblue;
+    }
+
+    .sec6childboxsize1 h1 {
+        font-size: 40px;
+    }
+
+    .sec6childboxsize1 p {
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .sec6childboxsize1 button {
+        width: 100%;
+        font-size: 20px;   
+    }
+
+
+    /* ////////////// */
+
+    .sec6childinnerbox1 {
+       width: 100%;
+       height: 570px;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/t45.jpg );
+        background-size: cover;
+        background-position-y:-70px ;
+    }
+
+    .sec6childinnerbox2 {
+       width: 100%;
+       height: 70px;
+       background-color: #ffc63d;
+       display: flex;
+       justify-content: space-between;
+       padding: 20px 30px;
+    }
+
+    .sec6childinnerbox2 h1 {
+        font-size: 25px;
+    }
+
+    .sec6childboxsize2 {
+        height: auto;
+    }
+
+    .sec6yogabox {
+        width: 100%;
+        height: 450px;
+        background-color: #ffc63d ;
+    }
+
+    .sec6meditationbox {
+        width: 100%;
+        height: 450px;
+        background-color: #ffc63d;
+    }
+
+    .sec6yogachildbox1 {
+        width: 100%;
+        height: 350px;
+        background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/yy.jpg);
+        background-size: cover;
+        background-position-y: -100px ;
+    }
+
+    .sec6yogachildbox2 {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .sec6meditationchildbox1{
+       width: 100%;
+       height: 350px;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/mw.jpg);
+       background-size: cover;
+      background-position-y:-80px ;
+    }
+
+    .sec6meditationchildbox2 {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -916,8 +1218,6 @@
       justify-content: center;
       align-items: center;
       color: white;
-      
-
     }
 
     .btn-primary {  
@@ -966,8 +1266,6 @@
        text-align: center;
     } 
      
-    
-
     .sec2box2innerbox {
        width: 100%;
        height: auto;
@@ -989,7 +1287,48 @@
        padding: 20px;
     }
 
+    .sec5innerbox2 {
+       width: 100%;
+       height: auto;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 50px;
+       flex-wrap: wrap;
+       margin-top: 100px;
+    }
+
+    .btn-primary-transparent {
+       font-size: 13px;
+       font-weight: 900;
+    }
+
+
     .yogaimg1 {
+      width: 200px;
+      left: 25px;
+      top: 10px;
+    }
+
+    .yogaimg2 {
+        width: 200px;
+        left: 60px;
+        top: 100px;
+    }
+
+    .sec5innerbox2 h1{
+        font-size: 15px;
+        margin-top: 100px;
+        padding: 0px;
+        
+    }
+
+    .sec5innerbox2 p {
+        font-size: 10px;
+    }
+
+    /* .yogaimg1 {
        position: absolute;
        left: 130px;
        top: 110px;
@@ -1002,6 +1341,125 @@
        top: 300px;
        width: 455px;
        border: 8px solid white;
+    } */
+
+    .sec6 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sec6childbox {
+        width: 100% ;
+        height: 80vh;
+    }
+
+    .sec6container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    /* ////////////// */
+     
+    .sec6childboxsize3 {
+        height: 160vh;
+    }
+
+    /* /////////////  */
+    .sec6childboxsize1 {
+       padding: 10px;
+       color: aliceblue;
+    }
+
+    .sec6childboxsize1 h1 {
+        font-size: 40px;
+    }
+
+    .sec6childboxsize1 p {
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    .sec6childboxsize1 button {
+        width: 100%;
+        font-size: 20px;   
+    }
+
+
+    /* ////////////// */
+
+    .sec6childinnerbox1 {
+       width: 100%;
+       height: 570px;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/t45.jpg );
+        background-size: cover;
+        background-position-y:-70px ;
+    }
+
+    .sec6childinnerbox2 {
+       width: 100%;
+       height: 70px;
+       background-color: #ffc63d;
+       display: flex;
+       justify-content: space-between;
+       padding: 20px 30px;
+    }
+
+    .sec6childinnerbox2 h1 {
+        font-size: 25px;
+    }
+
+    .sec6childboxsize2 {
+        height: auto;
+    }
+
+    .sec6yogabox {
+        width: 100%;
+        height: 450px;
+        background-color: #ffc63d ;
+    }
+
+    .sec6meditationbox {
+        width: 100%;
+        height: 450px;
+        background-color: #ffc63d;
+    }
+
+    .sec6yogachildbox1 {
+        width: 100%;
+        height: 450px;
+        background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/yy.jpg);
+        background-size: cover;
+        background-position-y: -100px ;
+    }
+
+    .sec6yogachildbox2 {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
+
+    .sec6meditationchildbox1{
+       width: 100%;
+       height: 350px;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/mw.jpg);
+       background-size: cover;
+      background-position-y:-80px ;
+    }
+
+    .sec6meditationchildbox2 {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 20px;
     }
 
 }
@@ -1021,8 +1479,7 @@
       align-items: center;
       color: white;
       padding: 30px;
-     } 
-
+    } 
 
     .btn-primary {  
       font-size: 15px;
@@ -1070,8 +1527,6 @@
        text-align: center;
     } 
      
-    
-
     .sec2box2innerbox {
        width: 100%;
        height: auto;
@@ -1104,7 +1559,6 @@
 
 }
 
-
 @media screen and (min-width: 1400px) and (max-width: 1800px) {
 
     .sec1 h1 {
@@ -1121,7 +1575,6 @@
       color: white;
       padding: 30px;
     }
-
 
     .btn-primary {  
       font-size: 15px;
@@ -1172,8 +1625,6 @@
         height: 400px;
         padding: 20px;
         width: 30%;
-        
-
     }
 
     .sec2box2innerbox {
@@ -1189,10 +1640,8 @@
     }
 
     .sec4innerbox span {
-    margin-top: 0px;
-    /* text-align: center;
-    position: relative; */
-    top: 0px;
-}
+        margin-top: 0px;
+       top: 0px;
+    }
 
 }
