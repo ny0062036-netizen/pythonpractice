@@ -340,14 +340,117 @@
     border: 8px solid white;
 }
 
+/* sec6 start */
+
 .sec6 {
     width: 100%;
-    height: 100vh;
+    height: 135vh;
     background-color: black;
+    display: flex;
 }
 
-.sec6innerbox h1 {
-    color: white;
+.sec6container {
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.sec6childboxsize1 {
+    padding: 40px;
+    color: aliceblue;
+}
+
+.sec6childboxsize1 h1 {
+    font-size: 30px;
+}
+
+.sec6childboxsize1 p {
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.sec6childboxsize1 button {
+    width: 100%;
+    font-size: 20px; 
+}
+
+.sec6childbox {
+    width: 30%;
+    height: 80vh;
+}
+
+.sec6childboxsize2 {
+    height: 60vh;
+}
+
+.sec6childinnerbox1 {
+    width: 100%;
+    height: 410px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/t45.jpg );
+    background-size: cover;
+}
+
+.sec6childinnerbox2 {
+    width: 100%;
+    height: 80px;
+    background-color: #ffc63d;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.sec6childboxsize3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sec6yogabox {
+    width: 100%;
+    height: 370px;
+    background-color: #ffc63d;
+}
+
+.sec6yogachildbox1 {
+    width: 100%;
+    height: 230px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/yy.jpg);
+    background-size: cover;
+    background-position-y: -100px ;
+}
+
+.sec6yogachildbox2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 30px;
+}
+
+.sec6meditationchildbox1{
+    width: 100%;
+    height: 230px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/mw.jpg);
+    background-size: cover;
+    background-position-y:-80px ;
+
+}
+
+.sec6meditationchildbox2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.sec6meditationbox {
+    width: 100%;
+    height: 370px;
+    background-color: #ffc63d;
 }
 
 @media screen and (min-width: 320px) and (max-width: 578px) {
@@ -356,7 +459,6 @@
     
     background-size: cover;
     background-position-x: -300px;
-    /* background-repeat: no-repeat; */
 }
 
 
@@ -451,9 +553,6 @@
 
     }
    
-
-
-  
     .sec4 {
        height: auto;
        padding: 20px;
@@ -527,7 +626,127 @@
     .sec5innerbox2 p {
         font-size: 10px;
     }
+
+    .sec6 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .sec6childbox {
+        width: 100% ;
+        height: 80vh;
+    }
+
+    .sec6container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    /* ////////////// */
+
+    .sec6childboxsize1 {
+       padding: 10px;
+       color: aliceblue;
+    }
+
+    .sec6childboxsize1 h1 {
+        font-size: 30px;
+    }
+
+    .sec6childboxsize1 p {
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .sec6childboxsize1 button {
+        width: 100%;
+        font-size: 20px;   
+    }
+
+
+    /* ////////////// */
+
+    .sec6childinnerbox1 {
+       width: 100%;
+       height: 300px;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/t45.jpg );
+        background-size: cover;
+    }
+
+    .sec6childinnerbox2 {
+       width: 100%;
+       height: 80px;
+       background-color: #ffc63d;
+       display: flex;
+       justify-content: space-between;
+       padding: 20px 30px;
+    }
+
+    .sec6childinnerbox2 h1 {
+        font-size: 25px;
+    }
+
+    .sec6childboxsize2 {
+        height: auto;
+    }
+
+    .sec6yogabox {
+        width: 100%;
+        height: auto;
+        background-color: #ffc63d ;
+    }
+
+    .sec6meditationbox {
+        width: 100%;
+        height: auto;
+        background-color: #ffc63d;
+    }
+
+    .sec6yogachildbox1 {
+    width: 100%;
+    height: 150px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/yy.jpg);
+    background-size: cover;
+    background-position-y: -100px ;
 }
+
+    .sec6yogachildbox2 {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+    .sec6meditationchildbox1{
+       width: 100%;
+       height: 150px;
+       background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2646264/images/mw.jpg);
+       background-size: cover;
+      background-position-y:-80px ;
+
+    }
+
+    .sec6meditationchildbox2 {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding: opx 20px;
+    }
+
+
+
+}
+
+
+
 
 
 @media screen and (min-width: 578px) and (max-width: 768px) {
